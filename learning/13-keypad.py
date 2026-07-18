@@ -5,7 +5,7 @@ keypad = [
 ["*", "0", "#"]
 ]
 
-for rows in keypad:
-    for buttons in rows:
-        print(buttons, end=" ")
+for row in keypad:
+    for button in row:
+        print(button, end=" ")
     print()
