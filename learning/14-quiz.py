@@ -38,7 +38,4 @@ for question in questions:
     
     question_num += 1
 
-print("-----YOUR SCORE-----")
-print(f"         {score}")
-print("-----YOUR SCORE----")
-
+print(f"You got {score} questions right!")
